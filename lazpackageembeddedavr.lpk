@@ -17,7 +17,7 @@
       <Item1>
         <Filename Value="lazpackageembeddedavr_intf.pas"/>
         <HasRegisterProc Value="True"/>
-        <UnitName Value="lazpackageembeddedavr_intf"/>
+        <UnitName Value="LazPackageEmbeddedAVR_Intf"/>
       </Item1>
       <Item2>
         <Filename Value="dlgnewavrproject.pas"/>
@@ -40,16 +40,19 @@
         <UnitName Value="uCOMUtils"/>
       </Item6>
     </Files>
-    <RequiredPkgs Count="3">
+    <RequiredPkgs Count="4">
       <Item1>
-        <PackageName Value="IDEIntf"/>
+        <PackageName Value="laz_synapse"/>
       </Item1>
       <Item2>
-        <PackageName Value="LCL"/>
+        <PackageName Value="IDEIntf"/>
       </Item2>
       <Item3>
-        <PackageName Value="FCL"/>
+        <PackageName Value="LCL"/>
       </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
     </RequiredPkgs>
     <UsageOptions>
       <UnitPath Value="$(PkgOutDir)"/>
