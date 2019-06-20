@@ -3,25 +3,30 @@ program $(LAZWIZProjectName);
 {$goto on}
 
 uses
-  uInterrupts;
+  uInterrupts; 
   
 //const
   {Constant Declarations}
 //var
   {Variable Declarations}
 
+// Insert your code here to setup the IO or init devices;
+procedure setup;
+begin
+  // ------ Init of IO, ... here ---------
+  
+end;
+
 //=== Entry point =============================================================  
 begin
-
-
-
+  setup;
   //=== Main loop =========================================
   while True do
   begin
-
+    // Insert your code here for the main-loop
 
       
   end;//Main loop
-  
+  // this will never reached !!!!!
 end.
 
